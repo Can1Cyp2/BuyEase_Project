@@ -1,0 +1,219 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.profile-header h2 {
+  flex: 1;
+  font-size: 1.8em;
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-picture-container {
+  position: absolute;
+  top: 20px;
+  left: -230px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #ccc;
+}
+
+.profile-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upload-button-container {
+  position: absolute;
+  top: 250px;
+  left: -230px;
+  text-align: center;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #44413d; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.upload-button:hover {
+  background-color: #6e6d6c; /* Darker green on hover */
+}
+
+.delete-button-container {
+  position: absolute;
+  top: 300px;
+  left: -230px;
+  text-align: center;
+}
+.delete-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #44413d; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #6e6d6c; /* Darker green on hover */
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.profile-section label {
+  font-weight: bold;
+  width: 80px;
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-section .profile-display {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.profile-section input {
+  flex: 1;
+  margin: 0 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-section input {
+  margin-left: auto;
+  width: 60%;
+}
+
+.profile-section .button-container {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.profile-section button {
+  padding: 5px 10px;
+  background-color: #44403d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.profile-section button:hover {
+  background-color: #6e6c6c;
+}
+
+/* toBuy Button: */
+.to-buy-section {
+  position: absolute;
+  top: 400px;
+  left: -223px;
+  text-align: center;
+}
+.to-buy-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #269224; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.to-buy-btn:hover {
+  background-color: #315d07; /* Darker green on hover */
+}
+
+
+.notification-preferences {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.notification-preferences label {
+  font-weight: bold;
+  margin-right: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.notification-preferences .profile-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.notification-preferences .checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notification-preferences input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.notification-preferences button {
+  padding: 5px 10px;
+  background-color: #44403d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.notification-preferences button:hover {
+  background-color: #6e6c6c;
+}

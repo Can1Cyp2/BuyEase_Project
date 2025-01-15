@@ -1,0 +1,51 @@
+/* Overall Layout */
+.account-verification-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Text aligned to the left */
+  }
+  
+  /* Title Styling */
+  .account-title {
+    font-size: 24px;
+    text-align: center; /* Center the title itself */
+    margin-bottom: 20px;
+    color: white;
+    background-color: #333; /* Black background */
+    padding: 15px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Account Info Section */
+  .account-info p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  /* Verification Steps */
+  .verification-steps h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .verification-steps ol {
+    padding-left: 20px;
+  }
+  
+  .verification-steps li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  

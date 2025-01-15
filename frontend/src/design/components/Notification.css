@@ -1,0 +1,44 @@
+.notification-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-bell {
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: relative;
+  }
+  
+  .notification-bell.new {
+    color: red; /* Highlight the bell if there's a new notification */
+  }
+  
+  .notification-dot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .notification-dropdown {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 200px;
+    z-index: 10;
+  }
+  
+  .notification-dropdown p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
